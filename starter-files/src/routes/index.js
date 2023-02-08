@@ -8,7 +8,7 @@ import Rocket from './../pages/Rocket';
 
 const Routing = () => (
     <Router>
-        <div className="general">
+        <div className="general" class="text-white font-quicksand bg-helper-dark tracking-tighter ">
             <NavBar />
             <Switch>
                 <Route exact path="/" component={Home} />
